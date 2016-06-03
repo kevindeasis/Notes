@@ -22,9 +22,13 @@
 
 # Docker Example APP
 >docker run -d -p 80:5000 training/webapp python app.py
+
 docker-machine ip
+
 docker port <Container_Name> <Port Number>
+
 given the information above
+
 Open Browser to <DOCKER_IP>:<External_PORT>
 
 
