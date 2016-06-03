@@ -23,17 +23,21 @@
 # Docker Example APP
 >docker run -d -p 80:5000 training/webapp python app.py
 
-docker-machine ip
+>docker machine ls //get hostnames
 
-docker port <Container_Name> <Port Number>
+>docker-machine ip [hostname]
 
-given the information above
+>docker port <Container_Name> <Port Number>
 
-Open Browser to <DOCKER_IP>:<External_PORT>
+given the information above:
+
+>Open Browser to <DOCKER_IP>:<External_PORT>
 
 
 # Setup
 docker run -d -p 4321:8000 -w /workingDirectory
+
+>docker-machine create -help | grep [google, digitalocean ,...]
 
 # vim ~/.bash_profile 
 
