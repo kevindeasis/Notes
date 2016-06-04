@@ -73,10 +73,15 @@ docker inspect nostalgic_morse // inspect
 - <ip.address> myvm.instance  // so now you can ssh user@myvm.instance
 
 # Process
-> ps aux | grep mysqld
+>```
+ps aux | grep mysqld
 pidof mysqld
 kill -9 pid
 killall <processName>
+```
+
+# Networking
+>ifconfig //iptable for mac
 
 # [Build a command line tool](http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm)
 
