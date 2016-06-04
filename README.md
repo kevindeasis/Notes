@@ -2,23 +2,42 @@
 
 # Docker commands
 
-- docker run <image> [args]
+- docker run [flags] <image> [args]
 - docker start
 - docker stop
 - docker ps
 - docker ps -a //
-- docker ps -l //created
-- docker rm
+- docker ps -l //last created
+- docker rm // remove container
 - docker images
 - docker-machine ip // get the ip of virtual host
 - docker port <Container_Name> <Port Number> // find the mapping for external port given <Container_name> and <Port_Number>
 - docker build -t <new-image-name> . 
-- docker rmi -f <img or name>
+- docker rmi -f <img or name> //remove image from the host
 - docker -t --help 
+- docker inspect <container_name>
 - CMD [docker cmd ref](https://docs.docker.com/engine/reference/builder/#cmd) or (docker best practices; find cmd)(https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
 - [-t and -i](https://coreos.com/os/docs/latest/getting-started-with-docker.html)
 
+## Docker Args
+> ```
+-t  flag assigns a pseudo-tty or terminal inside the new container.
+-i  flag allows you to make an interactive connection by grabbing the standard in (STDIN) of the container.
+-d  background mound aka detached mode
+```
+## build
 >docker build -t ourdockermicroservice:0.1 . //run inside directory with Dockerfile
+
+## naming container
+>docker run -d -P --name web training/webapp python app.py
+## logs
+>docker logs -f nostalgic_morse // -f is tail
+
+## find process running inside container
+>docker top nostalgic_morse
+
+## docker commit
+>docker commit -m "Added json gem" -a "Kevin De Asis" <image_id> kevindeas/appname:tagNumber
 
 # Docker Example APP
 >docker run -d -p 80:5000 training/webapp python app.py
@@ -35,9 +54,13 @@ given the information above:
 
 
 # Setup
+```
 docker run -d -p 4321:8000 -w /workingDirectory
 
->docker-machine create -help | grep [google, digitalocean ,...]
+docker-machine create -help | grep [google, digitalocean ,...]
+
+docker inspect nostalgic_morse // inspect
+```
 
 # vim ~/.bash_profile 
 
@@ -54,6 +77,8 @@ docker run -d -p 4321:8000 -w /workingDirectory
 pidof mysqld
 kill -9 pid
 killall <processName>
+
+# [Build a command line tool](http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm)
 
 # YC Questions
 >"So what are you working on?",
