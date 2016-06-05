@@ -79,6 +79,16 @@ pidof mysqld
 kill -9 pid
 killall <processName>
 ```
+# Gcloud
+>```
+gcloud config set project <project-id>
+gcloud compute instances list
+gcloud components reinstall
+
+gcloud preview app deploy
+or gcloud preview app deploy app.yaml //docker
+
+```
 
 # Networking
 >ifconfig //iptable for mac
