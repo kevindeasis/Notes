@@ -102,8 +102,8 @@ env //environment
 $PATH
 $HOME
 
-#add to $PATH
-#make it permanent by putting it in .bashrc in $HOME directory
+//add to $PATH
+//make it permanent by putting it in .bashrc in $HOME directory
 export PATH=$PATH:$HOME/bin
 ```
 more about [bash rc](http://superuser.com/questions/147043/where-to-find-the-bashrc-file-on-mac-os-x-snow-leopard-and-lion)
@@ -155,7 +155,7 @@ How cheap is it to serve a customer?
   - "Who would use your product?",
   - "How will customers and/or users find out about you?",
   - "Why did your team get together?",
-  - "In what ways are you resourceful?",
+  - "In what ways are ysou resourceful?",
   - "What is your distribution strategy?",
   - "What has surprised you about user behaviour?",
   - "What part of your project are you going to build first?",
