@@ -96,6 +96,18 @@ ifconfig //iptable for mac
 dig google.com // swiss army knife for querying DNS servers
 ```
 
+# Other Command Line stuff
+>```
+env //environment
+$PATH
+$HOME
+
+#add to $PATH
+#make it permanent by putting it in .bashrc in $HOME directory
+export PATH=$PATH:$HOME/bin
+```
+more about [bash rc](http://superuser.com/questions/147043/where-to-find-the-bashrc-file-on-mac-os-x-snow-leopard-and-lion)
+
 # [Build a command line tool](http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm)
 
 # YC Questions
