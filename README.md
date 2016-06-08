@@ -91,7 +91,10 @@ or gcloud preview app deploy app.yaml //docker
 ```
 
 # Networking
->ifconfig //iptable for mac
+>```
+ifconfig //iptable for mac
+dig google.com // swiss army knife for querying DNS servers
+```
 
 # [Build a command line tool](http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm)
 
