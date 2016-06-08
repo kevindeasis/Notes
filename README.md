@@ -101,7 +101,6 @@ dig google.com // swiss army knife for querying DNS servers
 env //environment
 $PATH
 $HOME
-
 //add to $PATH
 //make it permanent by putting it in .bashrc in $HOME directory
 export PATH=$PATH:$HOME/bin
