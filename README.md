@@ -99,6 +99,12 @@ dig google.com // swiss army knife for querying DNS servers
 # [Build a command line tool](http://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm)
 
 # YC Questions
+> ```
+2 key metrics
+How much does it cost is it to make a sale? (How easy is it to make a sale)
+How cheap is it to serve a customer?
+```
+
 >"So what are you working on?",
   - "Have you raised funding?",
   - "What makes new users try you?",
