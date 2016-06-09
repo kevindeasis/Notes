@@ -1,5 +1,8 @@
 # Notes
 
+# Go
+- [Go CLI cmd](https://golang.org/cmd/go/)
+
 # Docker commands
 
 - docker run [flags] <image> [args]
