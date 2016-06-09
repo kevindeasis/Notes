@@ -2,6 +2,11 @@
 
 # Go
 - [Go CLI cmd](https://golang.org/cmd/go/)
+- [Running Unix execuctables & path](http://stackoverflow.com/questions/15080835/running-an-executable-in-mac-terminal)
+- [go path playlist](https://www.youtube.com/watch?v=M2TTpIi62PQ&index=9&list=PLSak_q1UXfPpqIlNiyBhFQLMUvbkeWM7F)
+- [Workspace](https://golang.org/doc/code.html#Workspaces)
+- [Go Wiki](https://github.com/golang/go/wiki/Learn)
+- [Go Tour](https://tour.golang.org/basics/1)
 
 # Docker commands
 
