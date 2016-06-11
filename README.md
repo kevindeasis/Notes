@@ -7,15 +7,16 @@
 - [Workspace](https://golang.org/doc/code.html#Workspaces)
 - [Go Wiki](https://github.com/golang/go/wiki/Learn)
 - [Go Tour](https://tour.golang.org/basics/1)
->```
+>
+```
 $ mkdir $HOME/work
 //add to bashprofile
 export GOPATH=$HOME/work
 //OR
 $ export GOPATH=$HOME/work
 $ export PATH=$PATH:$GOPATH/bin
-
 ```
+
 
 # Docker commands
 
