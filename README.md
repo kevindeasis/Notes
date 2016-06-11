@@ -7,7 +7,7 @@
 - [Workspace](https://golang.org/doc/code.html#Workspaces)
 - [Go Wiki](https://github.com/golang/go/wiki/Learn)
 - [Go Tour](https://tour.golang.org/basics/1)
->
+- [Effective Go](https://golang.org/doc/effective_go.html)
 ```
 $ mkdir $HOME/work
 //add to bashprofile
