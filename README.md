@@ -16,6 +16,34 @@ export GOPATH=$HOME/work
 $ export GOPATH=$HOME/work
 $ export PATH=$PATH:$GOPATH/bin
 ```
+- [Slices](https://blog.golang.org/go-slices-usage-and-internals
+
+// WATCH OUT FOR RACE CONDItiON add mutex
+## concurrency
+// alternating between tasks
+```
+var waitGroup sync.WaitGroup
+waitGroup.add(3)
+//not executed in sequence
+go one()
+go two()
+go three()
+waitGroup.wait()
+
+func one(){
+ waitGroup.done()
+}
+```
+```
+var mutex sync.Mutex
+mutex.Lock()
+mutex.Unlock()
+```
+## parallelism
+//doing tasks at the same time
+
+## channels
+[ardan labs go training](https://github.com/ardanlabs/gotraining/blob/master/topics/channels/README.md)
 
 
 # Docker commands
