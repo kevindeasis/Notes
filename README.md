@@ -1,4 +1,5 @@
 # Notes
+>notes for stuff I can't memorize
 
 # Go
 - [Go CLI cmd](https://golang.org/cmd/go/)
@@ -47,6 +48,7 @@ mutex.Unlock()
 
 
 # Docker commands
+>[docker cheat sheet](https://github.com/wsargent/docker-cheat-sheet)
 
 - docker run [flags] <image> [args]
 - docker start
